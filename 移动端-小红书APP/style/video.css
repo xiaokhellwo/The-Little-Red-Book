@@ -1,0 +1,81 @@
+.videobox {
+  /* height: 896px; */
+  height: 216.4251vw;
+}
+a {
+  color: aliceblue;
+}
+.videobox .bgc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 88%;
+  margin-left: 6.2802vw;
+  margin-top: 6.0386vw;
+  height: 94.5%;
+  border-radius: 9.6618vw;
+}
+.videobox .bgc .videotop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4.8309vw;
+  flex-grow: 1;
+  width: 90%;
+  margin-left: 1.2077vw;
+  height: 1.2077vw;
+}
+.videobox .bgc .videotop span,
+.videobot div span {
+  font-size: 9.6618vw;
+  color: aliceblue;
+}
+.videobox .bgc .videotop div,
+.videobox .bgc .videobot div a {
+  display: flex;
+  flex-direction: column;
+}
+.videobox .bgc .videotop div span:nth-child(2),
+.videobot div span:nth-child(2) {
+  font-size: 2.4155vw;
+  text-align: center;
+}
+
+.videobot {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3.6232vw;
+  justify-content: space-between;
+  margin-bottom: 4.8309vw;
+  width: 90%;
+  margin-left: 1.2077vw;
+  height: 12.0773vw;
+}
+.videobot button {
+  width: 9.6618vw;
+  height: 9.6618vw;
+  border-radius: 50%;
+}
+.videoend {
+  display: flex;
+  padding-left: 3.6232vw;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4.8309vw;
+  color: grey;
+  font-size: 2.4155vw;
+  width: 90%;
+  margin-left: 1.2077vw;
+  height: 12.0773vw;
+}
+.videobot div {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.videoend :nth-child(2) {
+  color: aliceblue;
+  font-size: 4.3478vw;
+}

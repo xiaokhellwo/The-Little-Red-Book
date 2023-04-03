@@ -1,0 +1,72 @@
+.shoppingcarbox {
+  /* height: 896px; */
+  height: 216.4251vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.topb {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-around;
+}
+.shoppingcarbinner {
+  flex-grow: 1;
+  overflow: auto;
+  /* max-height: 600px; */
+  max-height: 144.9275vw;
+  margin-left: 7.2464vw;
+  width: 82.8502vw;
+  background-color: green;
+}
+.shoppingcarbinner img {
+  width: 82.8502vw;
+  background-color: green;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7.2464vw;
+  padding-bottom: 4.8309vw;
+  /* background-color: red; */
+  width: 82.8502vw;
+}
+.bottom .botleft {
+  width: 43.4783vw;
+  display: flex;
+}
+.bottom .botleft span:nth-child(1) {
+  width: 4.8309vw;
+  height: 4.8309vw;
+  border-radius: 50%;
+  border: 0.2415vw solid #000;
+}
+.bottom .botleft span:nth-child(1):hover {
+  background-color: #f40;
+}
+.bottom .bothid {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+}
+.bottom .bothid div span:nth-child(1) {
+  font-size: 3.3816vw;
+  font-weight: bold;
+}
+.bottom .bothid div span:nth-child(2) {
+  font-size: 3.3816vw;
+  font-weight: bold;
+  color: #f40;
+}
+.bottom .bothid div:nth-child(2) {
+  color: grey;
+  font-size: 2.4155vw;
+  text-align: right;
+}
+.botright {
+  width: 12.0773vw;
+  height: 4.8309vw;
+  background-color: red;
+  text-align: center;
+  border-radius: 4.8309vw;
+}

@@ -1,0 +1,91 @@
+.ssbox {
+  height: 212.8986vw;
+}
+.tope {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pict {
+  width: 72.4638vw;
+  height: 96.6184vw;
+  border: 0vw solid #000;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 43.4783vw;
+}
+.trans {
+  border: 0.7246vw solid rgb(0, 255, 170);
+  top: 1.2077vw;
+  width: 100%;
+  margin-left: -1.2077vw;
+  position: absolute;
+  z-index: 5;
+  animation: run 3s linear infinite;
+}
+.pict .pictbd {
+  width: 62.8019vw;
+  height: 62.8019vw;
+  position: absolute;
+  left: 2.4155vw;
+  top: 16.9082vw;
+  border: 2.4155vw solid #000;
+  border-radius: 6.0386vw;
+}
+.pict .pictbd .im img {
+  width: 48.3092vw;
+  height: 48.3092vw;
+  margin-left: 7.2464vw;
+  margin-top: 7.2464vw;
+}
+.pict .pictbd .im {
+  width: 100%;
+  height: 72.4638vw;
+  display: flex;
+  flex-direction: column;
+}
+.pict .pictbd .im .inf {
+  width: 100%;
+  margin-top: 9.6618vw;
+  height: 12.5604vw;
+  display: flex;
+  animation: opc 3s infinite;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.pict .pictbd .im .inf span:nth-of-type(1) {
+  margin: 0 auto;
+  font-size: 5.314vw !important;
+}
+.pict .pictbd .im .inf span:nth-of-type(2) {
+  margin: 0 auto;
+  border: 0.2415vw solid grey;
+  margin-top: 2.4155vw;
+  border-radius: 1.2077vw;
+  font-size: 3.3816vw !important;
+}
+
+@keyframes run {
+  0% {
+    top: 0vw;
+  }
+  50% {
+    top: 96.6184vw;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes opc {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

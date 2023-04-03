@@ -1,0 +1,127 @@
+.topb {
+  /* background-color: red; */
+  display: flex;
+  width: 82.8502vw;
+  margin-left: 7.7295vw;
+  justify-content: space-around;
+  height: 12.0773vw;
+}
+
+.textinput {
+  display: flex;
+  flex-grow: 1;
+}
+
+.textinput {
+  width: 9.6618vw;
+  height: 9.6618vw;
+  flex-grow: 1;
+  margin-right: 4.8309vw;
+  border-radius: 4.3478vw;
+  border: 0.2415vw solid grey;
+  display: flex;
+}
+.textinput input {
+  font-size: 3.8647vw;
+  width: 80%;
+  margin-left: 9.6618vw;
+  outline: none;
+  /* opacity: 0; */
+  border: 0px solid #000;
+  border-radius: 4.3478vw;
+  height: 100%;
+}
+.textinput:hover {
+  border: 0.2415vw solid #f40;
+  border-radius: 4.3478vw;
+  outline: none;
+}
+.textinput input::placeholder {
+  text-align: center;
+}
+.textinput .iconfont.icon-sousuo {
+  margin-left: -57.5556vw;
+  font-size: 4.8309vw !important;
+  padding-top: 2.4155vw;
+}
+
+.more {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  font-size: 2.4155vw;
+  justify-content: center;
+  flex-direction: column;
+  width: 9.6618vw;
+  height: 100%;
+}
+.ifica {
+  /* background-color: green;
+  width: 40px; */
+  display: flex;
+  align-items: center;
+  font-size: 2.4155vw;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.slideshow {
+  width: 82.8502vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 9vw;
+  overflow: hidden;
+  height: 31.401vw;
+  /* background-color: red; */
+}
+.slideshow ul:nth-of-type(1) {
+  transition: all 2s;
+  width: 400%;
+  margin-left: 0;
+  height: 28.9855vw;
+  overflow: hidden;
+  display: flex;
+}
+.slideshow div {
+  width: 79.7101vw;
+  display: flex;
+  margin-top: -15px;
+  justify-content: center;
+  height: 3.6232vw;
+}
+.slideshow div span {
+  width: 2.4155vw;
+  height: 2.4155vw;
+  margin-right: 1.9324vw;
+  border-radius: 50%;
+  border: 0.2415vw solid #000;
+}
+
+.slideshow ul li a img {
+  width: 82.8502vw;
+  height: 100%;
+}
+.shoppingaction {
+  background-color: #ff4400;
+}
+.shoppingnav img {
+  width: 77.2947vw;
+  height: 120.7729vw;
+  margin-left: 2.4155vw;
+}
+.shoppingbinner {
+  display: flex;
+  width: 82.8502vw;
+  overflow: scroll;
+  margin-left: 8.7295vw;
+  height: 128.0193vw;
+}
+#shopcar {
+  width: 40px;
+  font-size: 10.3478vw;
+  height: 40px;
+  position: fixed;
+  bottom: 28.9855vw;
+  right: 12.0773vw;
+}

@@ -1,0 +1,135 @@
+.nextbox {
+  /* height: 896px; */
+  height: 216.4251vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+hr {
+  margin-bottom: 1.9324vw;
+  width: 100%;
+}
+.nexttop {
+  margin-left: 8.4541vw;
+  width: 92.5121vw;
+  height: 4.8309vw;
+  display: flex;
+  justify-content: space-between;
+}
+/* 内容 */
+.nextbinner {
+  margin-left: 8.4541vw;
+  width: 80.4348vw;
+  margin-top: -24.1546vw;
+  flex-direction: column;
+  height: 144.9275vw;
+  display: flex;
+}
+
+.nextbinner .binnretop {
+  width: 100%;
+  height: 24.1546vw;
+  display: flex;
+  flex-direction: row;
+  margin: 0 1.2077vw 1.2077vw 1.2077vw;
+  position: relative;
+}
+.nextbinner .binnretop img {
+  width: 30%;
+  height: 24.1546vw;
+}
+.nextbinner .binnretop div {
+  font-size: 22.9469vw;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4.8309vw;
+  width: 30%;
+  height: 24.1546vw;
+  border: 0.2415vw solid grey;
+}
+.fen {
+  width: 100%;
+  margin-top: 12.0773vw;
+  margin-bottom: 4.8309vw;
+  color: grey;
+}
+.binnrhid {
+  width: 100%;
+  height: 100%;
+}
+
+.binnrhid textarea {
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+.binnrbot {
+  margin-bottom: 2.4155vw;
+  width: 100%;
+  height: 4.8309vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.binnrbot span:nth-child(1) {
+  width: 4.8309vw;
+  height: 4.8309vw;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+  border: 0.2415vw solid #000;
+}
+.binnrbot span:nth-child(2),
+.binnrend div:nth-child(1) span:nth-child(2) {
+  font-weight: bold;
+}
+.binnrbot span:nth-last-child(2) {
+  font-size: 2.8986vw;
+  color: grey;
+}
+.binnrend {
+  margin-bottom: 2.4155vw;
+  width: 100%;
+  height: 9.6618vw;
+  display: flex;
+  flex-direction: column;
+}
+.binnrend div:nth-child(1) {
+  display: flex;
+  margin-bottom: 2.4155vw;
+  justify-content: space-evenly;
+}
+.binnrend div:nth-child(2) {
+  display: flex;
+  color: grey;
+  justify-content: space-evenly;
+  margin-bottom: 2.4155vw;
+}
+/* 底部 */
+.nextbottom {
+  width: 92.5121vw;
+  height: 7.2464vw;
+  display: flex;
+  margin-bottom: 10.0386vw;
+  justify-content: space-around;
+}
+.nextbottom img {
+  margin-left: 2.4155vw;
+  width: 9.6618vw;
+  height: 9.6618vw;
+}
+.nextbottom span:nth-last-child(1) {
+  background: red;
+  color: honeydew;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.1546vw;
+  height: 7.2464vw;
+  border-radius: 4.8309vw;
+}

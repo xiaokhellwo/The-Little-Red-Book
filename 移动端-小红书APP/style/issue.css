@@ -1,0 +1,75 @@
+.issuebox {
+  /* height: 896px; */
+  height: 216.4251vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 顶部 */
+.issuetop {
+  display: flex;
+  width: 87.1643vw;
+  margin-left: 6.6217vw;
+  flex-direction: row;
+  align-items: center;
+  background-color: #000;
+  height: 6.0386vw;
+  color: #fff;
+  justify-content: space-between;
+}
+.issuetop a {
+  color: #fff;
+}
+/* 底部 */
+.issuebottom ul {
+  display: flex;
+  list-style: none;
+  /* width: 365px; */
+  width: 86.1643vw;
+  /* margin-left: 27px; */
+  margin-left: 6.5217vw;
+  height: 6.0386vw;
+  border-bottom-left-radius: 12.0773vw;
+  border-bottom-right-radius: 12.0773vw;
+  margin-bottom: 6.0386vw;
+  justify-content: space-around;
+  background-color: #000;
+}
+.issuebottom ul li,
+.issuebottom ul li a {
+  color: grey;
+}
+.issuebottom .action a {
+  color: #fff;
+  border-bottom: 0.2415vw solid #fff;
+}
+.issuebinner {
+  width: 85%;
+  margin-left: 7.2464vw;
+  height: 169.0821vw;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.issuebinner div {
+  width: 30%;
+  height: 24.1546vw;
+  margin: 0 1.2077vw 1.2077vw 1.2077vw;
+  position: relative;
+  background-color: grey;
+}
+.issuebinner div img {
+  width: 100%;
+  height: 24.1546vw;
+}
+.issuebinner div span {
+  width: 2.4155vw;
+  height: 2.4155vw;
+  margin-left: -3.8647vw;
+  border-radius: 50%;
+  position: absolute;
+  border: 0.4831vw solid #000;
+}
+.issueaction {
+  background-color: #f40;
+}

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 216.4251vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+body {
+  background-image: url("../pbl95mx15k6x9hkz-1665579310/mb-workspace/images/devices/iphone_xs_max.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 216.4251vw;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.top {
+  margin-top: 4.6232vw;
+  /* 宽度满屏 */
+  width: 100%;
+  /* 高度比例44px */
+  height: 10.628vw;
+  /* background-color: red; */
+}
+
+.top p {
+  margin-left: 11vw;
+  /* p标签下的两个span先flex布局 */
+  display: flex;
+  /* 主轴为横轴 */
+  flex-direction: row;
+  /* 主轴对齐方式为两头对齐 */
+  justify-content: space-between;
+  /* 侧轴一直居中 */
+  align-items: center;
+}
+
+.top .rig {
+  /* 宽度比例 */
+  width: 15vw;
+  height: 10.628vw;
+  /* 右边三个标签flex布局 */
+  display: flex;
+  flex-direction: row;
+  margin-right: 10vw;
+  justify-content: space-between;
+}
+.top .rig span {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.searchone {
+  width: 80%;
+  margin-left: 8vw;
+  display: flex;
+}
+.searchone .back {
+  width: 9.6618vw;
+  height: 9.6618vw;
+  font-size: 7.4879vw;
+  text-align: center;
+  margin-right: 4vw;
+  /* background-color: red; */
+}
+.searchone .textinput {
+  width: 9.6618vw;
+  height: 9.6618vw;
+  flex-grow: 1;
+  margin-right: 4.8309vw;
+  border-radius: 4.3478vw;
+  border: 1px solid grey;
+  display: flex;
+}
+.searchone .textinput input {
+  font-size: 3.8647vw;
+  width: 80%;
+  margin-left: 9.6618vw;
+  outline: none;
+  /* opacity: 0; */
+  border: 0px solid #000;
+  border-radius: 4.3478vw;
+  height: 100%;
+}
+.searchone .textinput:hover {
+  border: 1px solid #f40;
+  border-radius: 4.3478vw;
+  outline: none;
+}
+.searchone .textinput input::placeholder {
+  text-align: center;
+}
+.searchone .textinput .iconfont.icon-sousuo {
+  margin-left: -46.8599vw;
+  font-size: 4.8309vw !important;
+  padding-top: 3.1401vw;
+}
+.searchone .ss {
+  text-align: center;
+  font-size: 3.8647vw;
+  padding-top: 2.4155vw;
+  width: 9.6618vw;
+  height: 9.6618vw;
+  /* background-color: orangered; */
+}
+.history,
+.find {
+  width: 100%;
+  height: 24.1546vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12.0773vw;
+  padding-left: 4.8309vw;
+}
+.history div {
+  display: flex;
+}
+.history div p,
+.find p {
+  margin-left: -0.4831vw;
+  width: 60.3865vw;
+  height: 7.0048vw;
+  /* background-color: red; */
+  font-weight: bold;
+  font-size: 2.4155vw;
+}
+
+.history div span img {
+  width: 4.8309vw;
+  height: 4.8309vw;
+  background-color: red;
+  font-weight: bold;
+}
+.history ul {
+  width: 72.4638vw;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1.2077vw;
+  margin-left: 2.4155vw;
+}
+.history ul li {
+  font-size: 1.9324vw;
+  text-align: center;
+  margin-right: 2.8309vw;
+  margin-bottom: 2.4155vw;
+  width: 12vw;
+  align-self: center;
+  border-radius: 6.0386vw;
+  border: 1px solid grey;
+  height: 3.6232vw;
+  cursor: pointer;
+}
+.history ul li:nth-last-child(1) {
+  text-align: center;
+  margin-right: 5.314vw;
+  margin-bottom: 2.4155vw;
+  border-radius: 6.0386vw;
+  border: 1px solid grey;
+  height: 2.4155vw;
+  width: 9.6618vw;
+  cursor: pointer;
+}
+.find ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: -1.2077vw;
+
+  flex-wrap: wrap;
+  width: 100%;
+}
+.find ul li {
+  width: 36.2319vw;
+  font-size: 2.4155vw;
+
+  margin: 3.6232vw 3.6232vw 0 2.4155vw;
+}

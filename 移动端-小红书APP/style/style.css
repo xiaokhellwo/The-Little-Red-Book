@@ -1,0 +1,306 @@
+body {
+  background-image: url("../pbl95mx15k6x9hkz-1665579310/mb-workspace/images/devices/iphone_xs_max.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 216.4251vw;
+  /* z-index: 10; */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.somebody img {
+  /* position: absolute; */
+  width: 4.8309vw;
+  height: 4.8309vw;
+  /* background-image: url("../pbl95mx15k6x9hkz-1665579310/uploads4/images/5472/54722861/1.png"); */
+}
+.box {
+  height: 216.4251vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.top {
+  margin-top: 4.6232vw;
+  /* 宽度满屏 */
+  width: 100%;
+  /* 高度比例44px */
+  height: 10.628vw;
+  /* background-color: red; */
+}
+.time {
+  font-size: 3.6232vw !important;
+}
+.top p {
+  font-size: 5vw ;
+  margin-left: 11vw;
+  /* p标签下的两个span先flex布局 */
+  display: flex;
+  /* 主轴为横轴 */
+  flex-direction: row;
+  /* 主轴对齐方式为两头对齐 */
+  justify-content: space-between;
+  /* 侧轴一直居中 */
+  align-items: center;
+}
+/* .top p > span {
+  display: flex;
+  align-items: center;
+  font-size: 3vw;
+} */
+.top .rig {
+  /* 宽度比例 */
+  width: 15vw;
+  height: 10.628vw;
+  /* 右边三个标签flex布局 */
+  display: flex;
+  flex-direction: row;
+  margin-right: 10vw;
+  justify-content: space-between;
+}
+.top .rig span {
+  height: 100%;
+  font-size: 3.6232vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* 搜索栏 */
+.icon-sousuo {
+  font-size: 4.3478vw !important;
+  margin-right: 10vw;
+}
+.search {
+  width: 100%;
+  height: 7vw;
+  /* background-color: red; */
+}
+.search img {
+  font-size: 3.6232vw !important;
+}
+.search .searchbox {
+  font-size: 3.6232vw !important;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 11vw;
+  align-items: flex-end;
+}
+.action {
+  color: black;
+  font-weight: bold;
+}
+.navigation {
+  font-size: 3.6232vw !important;
+
+  margin-left: 11vw;
+  /* position: absolute; */
+  overflow: auto;
+  width: 77.2947vw;
+}
+#naviga {
+  height: 9.6618vw;
+  margin-top: 1.2077vw;
+  display: flex;
+  width: 193.2367vw;
+  cursor: pointer;
+}
+#naviga li {
+  margin-right: 5.44vw;
+}
+
+/* <!-- 内容区开始 --> */
+.Binner {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  flex-direction: row;
+  margin-top: -2.4155vw;
+  flex-grow: 1;
+  /* background-color: red; */
+}
+.binnerbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.one ul {
+  display: flex;
+  flex-direction: column;
+}
+.one ul li,
+.two ul li,
+.three ul li,
+.four ul li {
+  font-size: 3.6232vw !important;
+}
+.two {
+  margin-left: -8.6957vw;
+  margin-top: -0.4831vw;
+}
+.four {
+  margin-left: -8.6957vw;
+  margin-top: -10.1449vw;
+  /* background-color: green; */
+}
+.four .onee .head img {
+  margin-top: 1.2077vw;
+}
+.one ul img {
+  margin-top: 7.2464vw;
+  width: 36.2319vw;
+  height: 56.7633vw;
+  margin-left: 11vw;
+}
+.two ul img {
+  margin-top: 7.2464vw;
+  width: 33.8164vw;
+  height: 49.5169vw;
+  margin-left: 11vw;
+}
+.three ul img {
+  margin-top: 7.2464vw;
+  width: 36.2319vw;
+  height: 36.9565vw;
+  margin-left: 11vw;
+}
+.four ul img {
+  margin-top: 7.2464vw;
+  width: 33.8164vw;
+  height: 49.5169vw;
+  margin-left: 11vw;
+}
+.five img {
+  width: 36.2319vw;
+  height: 55.5556vw;
+  margin-left: -28.9855vw;
+  margin-top: -7.2464vw;
+}
+.seven img {
+  width: 36.2319vw;
+  height: 60.3865vw;
+  margin-left: -28.9855vw;
+  margin-top: 2.4155vw;
+}
+.six img {
+  width: 36.2319vw;
+  height: 53.1401vw;
+  margin-left: 12.0773vw;
+  margin-top: -483.0918vw;
+}
+
+.eight img {
+  width: 36.2319vw;
+  height: 60.3865vw;
+  margin-left: 12.0773vw;
+  margin-top: -483.0918vw;
+}
+
+.one ul li span,
+.two ul li span,
+.three ul li span,
+.four ul li span {
+  color: black;
+  margin-left: 13vw;
+  display: flex;
+  width: 37.4396vw;
+  height: 16.1836vw;
+}
+.three ul li span {
+  height: 7.4879vw;
+}
+.onee {
+  /* background-color: red; */
+  display: flex;
+  /* width: 36.2319vw;
+   */
+  font-size: 1.9324vw;
+  align-items: center;
+  width: 36.2319vw;
+  /* background-color: red; */
+  flex-direction: row;
+  justify-content: start;
+  /* margin-top: 2.657vw; */
+}
+.onee div {
+  margin-right: 4.8309vw;
+}
+
+.onee .head img {
+  border-radius: 3.6232vw;
+  /* position: absolute; */
+  margin-left: 10.8696vw;
+  width: 4.8309vw;
+  height: 4.8309vw;
+  margin-top: 0.9662vw;
+}
+
+.bottom {
+  /* position: fixed; */
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 10.628vw;
+  margin-bottom: 5vw;
+  /* background-color: red; */
+}
+.bottom ul {
+  display: flex;
+  margin-left: 11vw;
+  justify-content: space-between;
+  width: 79%;
+  font-size: 3.8647vw;
+}
+.bottom ul li:nth-of-type(3) {
+  width: 8.4541vw;
+  text-align: center;
+  line-height: 7.2464vw;
+  height: 7.2464vw;
+  margin-bottom: 2.1739vw;
+  background-color: red;
+  border-radius: 1.9324vw;
+}
+.bottom ul li:nth-of-type(3) img {
+  font-size: 3.6232vw !important;
+}
+
+.ificah {
+  height: 216.4251vw;
+}
+.ificastar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86.2319vw;
+  margin-left: 7.2464vw;
+  background-color: #f3f3f3;
+}
+.ificanav {
+  width: 86.2319vw;
+  margin-left: 7.2464vw;
+  height: 169.0821vw;
+  margin-top: 2.4155vw;
+}
+.ificanav img {
+  width: 86.2319vw;
+  height: 169.0821vw;
+  overflow: auto;
+}
+
+/* 信息页布局 */
+.inforbinner {
+  width: 84.058vw;
+  height: 185.9903vw;
+  overflow: auto;
+  margin-left: 8.2126vw;
+}
+.inforbinner img {
+  width: 84.058vw;
+}
